@@ -1,112 +1,97 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define PI 3.14159
 
 int main()
 {
-    /* int no;
+      /*int x=0;
 
-    printf("Enter the number - ");
-    scanf("%d",&no);
+     while(x<=100)
+     {
+         printf("%d ",x);
 
-    if(no%2==0){
-        printf("%d is even number \n",no);
-    }else{
-    printf("%d is odd number \n",no);}
-
-    return 0; */
+         x++;
+     }*/
 
 
-    /* int no;
+     /*int x=0;
 
-    printf("Enter the number - ");
-    scanf("%d",&no);
+       do
+     {
+         printf("%d ",x);
 
-    switch(no%2)
-    {
-        case 0:printf("%d is even number \n",no);break;
-        case 1:printf("%d is odd number \n",no);break;
-    }
-    return 0; */
+         x++;
+     } while(x<=100); */
 
 
-    /* int choice;
-    float n1,n2;
+      /*int x;
 
-    printf("Menu driven calculator \n");
-
-    printf("Enter the first number - ");
-    scanf("%f",&n1);
-    printf("Enter the second number - ");
-    scanf("%f",&n2);
-
-    printf("Select an operation - \n");
-    printf("1. Addition(+) \n");
-    printf("2. Substraction(-) \n");
-    printf("3. Multipication(*) \n");
-    printf("4. Divition(%) \n");
-
-    printf("Enter your chice(1-4) - ");
-    scanf("%d",&choice);
-
-    switch(choice)
-    {
-        case 1:printf("Result - %.2f \n",n1+n2);
-        case 2:printf("Result - %.2f \n",n1-n2);
-        case 3:printf("Result - %.2f \n",n1*n2);
-        case 4:
-            if(n2!=0){
-                printf("Result - %.2f \n",n1/n2);
-                }else{
-                printf("Error: Division by zero is not allowed \n");}break;
-
-    default:printf("Invalid choice \n");
-    }
-
-    return 0; */
+     for(x=0;x<=100;x++)
+     {
+         printf("%d ",x);
+     }*/
 
 
-    /* int choice;
-    float r,d,c,a;
 
-    printf("Menu driven Calculator \n");
+     /*int marks[10],avg,counter=1;
+     int sum=0;
 
-    printf("Enter the radius of the circle");
-    scanf("%f",&r);
+     while(counter<=10)
+     {
+         printf("Enter %d marks - ",counter);
+         scanf("%d ",&marks);
 
-    printf("Selection a calculation \n");
-    printf("1. calculate diameter \n");
-    printf("2. calculate circumference \n");
-    printf("3. calculate area \n");
+         counter++;
 
-    printf("Enter your choice(1-3) - ");
-    scanf("%d",&choice);
+         sum+=marks;
 
-    switch(choice)
-    {
-        case 1:printf("Result - %.2f \n",2*r);break;
-        case 2:printf("Result - %.2f \n",2*PI*r);break;
-        case 3:printf("Result - %.2f \n",PI*r*r);break;
+         avg=sum/=10;
+     }
 
-        default:printf("Invalid choice \n");
-    }
-    return 0; */
+     printf("Sum of 10 marks - %d \n",sum);
+     printf("Average of 10 marks - %d \n",avg);
 
 
-    char c;
+     if(avg<50)
+        printf("Fail! \n",avg);
+     else
+     printf("Pass! \n",avg);*/
 
-    printf("Enter a character - ");
-    scanf("%d",&c);
 
-    switch(c)
-    {
-        case 'a':printf("Vowel \n",c);break;
-        case 'e':printf("Vowel \n",c);break;
-        case 'i':printf("Vowel \n",c);break;
-        case 'o':printf("Vowel \n",c);break;
-        case 'u':printf("Vowel \n",c);break;
+     /*int no;
+     int i=1,factorial=1;
 
-        default:printf("This is not vowel \n",c);
-    }
-    return 0;
+     printf("Enter number -");
+     scanf("%d",&no);
+
+     while(i<=no){
+        factorial*=1;
+        i++;
+     }
+     printf("Factorial is %d");*/
+
+
+     /*int no;
+     int sum=0;
+
+     printf("Enter no - ");
+     scanf("%d",&no);
+
+     while(no>0){
+        sum+=no%10;
+        no/=10;
+     }
+
+     printf("Sum of numbers %d \n",sum);*/
+
+
+     int no;
+     int reverse;
+
+     printf("Enter number - ");
+     scanf("%d",&no);
+
+     reverse
+
+     printf("Reverse number is %d \n",reverse);
+
 }
