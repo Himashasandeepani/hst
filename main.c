@@ -3,95 +3,35 @@
 
 int main()
 {
-      /*int x=0;
+   /* int arr[10],max,min,tot,i;
+    float avg;
 
-     while(x<=100)
-     {
-         printf("%d ",x);
+    for(i=0;i<10;i++)
+    {
+      printf("Enter %d number -",i+1);
+      scanf("%d",&arr[i]);
 
-         x++;
-     }*/
+      tot=tot+arr[i];
+    }
+    max=arr[0];
+    min=arr[0];
 
-
-     /*int x=0;
-
-       do
-     {
-         printf("%d ",x);
-
-         x++;
-     } while(x<=100); */
-
-
-      /*int x;
-
-     for(x=0;x<=100;x++)
-     {
-         printf("%d ",x);
-     }*/
+    for(i=1;i<10;i++)
+    {
+        if(arr[i]>max)
+        max=arr[i];
+      if(arr[i]<min)
+        min=arr[i];
+    }
+     avg=(float)tot/10.0;
 
 
+    for(i=0;i<10;i++)
+        printf("Entered %d element is %d \n",i+1,arr[i]);
+    printf("The maximam is %d \n",max);
+    printf("The minimam is %d \n",min);
+    printf("The average is %.2f \n",avg);
 
-     /*int marks[10],avg,counter=1;
-     int sum=0;
-
-     while(counter<=10)
-     {
-         printf("Enter %d marks - ",counter);
-         scanf("%d ",&marks);
-
-         counter++;
-
-         sum+=marks;
-
-         avg=sum/=10;
-     }
-
-     printf("Sum of 10 marks - %d \n",sum);
-     printf("Average of 10 marks - %d \n",avg);
-
-
-     if(avg<50)
-        printf("Fail! \n",avg);
-     else
-     printf("Pass! \n",avg);*/
-
-
-     /*int no;
-     int i=1,factorial=1;
-
-     printf("Enter number -");
-     scanf("%d",&no);
-
-     while(i<=no){
-        factorial*=1;
-        i++;
-     }
-     printf("Factorial is %d");*/
-
-
-     /*int no;
-     int sum=0;
-
-     printf("Enter no - ");
-     scanf("%d",&no);
-
-     while(no>0){
-        sum+=no%10;
-        no/=10;
-     }
-
-     printf("Sum of numbers %d \n",sum);*/
-
-
-     int no;
-     int reverse;
-
-     printf("Enter number - ");
-     scanf("%d",&no);
-
-     reverse
-
-     printf("Reverse number is %d \n",reverse);
-
+    for(i=9;i>=0;i--)
+        printf("%d \t",arr[i]);*/
 }
